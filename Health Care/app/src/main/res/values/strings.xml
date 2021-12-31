@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">HealthCare</string>
+
+    <string name="not_register"><u>Not Registered ? </u></string>
+
+    <string-array name="doctor_speciality">
+        <item>Select Speciality</item>
+        <item>Neurologist</item>
+        <item>Pediatrician</item>
+        <item>Gynaecologist</item>
+        <item>Cardiologist</item>
+        <item>Dentist</item>
+        <item>Ophthalmologist</item>
+    </string-array>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <string-array name="doctor_city">
+        <item>Select City</item>
+        <item>Lahore</item>
+        <item>Islamabad</item>
+        <item>Faisalabad</item>
+        <item>Karachi</item>
+    </string-array>
+
+</resources>

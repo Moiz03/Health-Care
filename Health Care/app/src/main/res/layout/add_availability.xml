@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/newfront">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:gravity="center"
+        android:text="AVAILABILITY "
+        android:textColor="@color/newblue"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.5"
+        />
+
+    <EditText
+        android:id="@+id/email_availability_doctor"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/newblue"
+        android:textColorHint="@color/lightblue"
+        android:fontFamily="@font/roboto_slab"
+        android:singleLine="true"
+        android:inputType="textEmailAddress"
+
+        android:hint="Email"
+        android:background="@drawable/edit_text"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.1"
+        />
+
+    <EditText
+        android:id="@+id/date_availability_doctor"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/newblue"
+        android:textColorHint="@color/lightblue"
+        android:fontFamily="@font/roboto_slab"
+        android:singleLine="true"
+        android:drawableEnd="@drawable/calender"
+        android:hint="Date"
+        android:focusable="false"
+        android:background="@drawable/edit_text" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.1"
+        />
+
+    <EditText
+        android:id="@+id/time_st_availability_doctor"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/newblue"
+        android:textColorHint="@color/lightblue"
+        android:fontFamily="@font/roboto_slab"
+        android:singleLine="true"
+        android:drawableEnd="@drawable/time"
+        android:focusable="false"
+        android:hint="Time From:"
+        android:background="@drawable/edit_text"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.1"
+        />
+
+    <EditText
+        android:id="@+id/time_end_add_availability_doctor"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/newblue"
+        android:textColorHint="@color/lightblue"
+        android:fontFamily="@font/roboto_slab"
+        android:singleLine="true"
+        android:drawableEnd="@drawable/time"
+        android:focusable="false"
+        android:hint="Time To:"
+        android:background="@drawable/edit_text"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.2"
+        />
+
+    <Button
+        android:id="@+id/button_add_availability_doctor"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Add"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/newfront"
+
+        android:backgroundTint="@color/newblue"/>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

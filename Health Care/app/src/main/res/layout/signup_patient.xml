@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/newfront"
+    >
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:gravity="center"
+        android:text="SIGN UP"
+        android:textColor="@color/newblue"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.5"
+        />
+
+    <EditText
+        android:id="@+id/email_signup_patient"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/newblue"
+        android:textColorHint="@color/lightblue"
+
+        android:singleLine="true"
+        android:inputType="textEmailAddress"
+
+        android:hint="Email"
+        android:background="@drawable/edit_text"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layout_weight="0.1"
+        />
+
+    <EditText
+        android:id="@+id/password_signup_patient"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:singleLine="true"
+        android:inputType="textPassword"
+
+        android:textColor="@color/newblue"
+        android:textColorHint="@color/lightblue"
+        android:hint="Password"
+        android:background="@drawable/edit_text"/>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layout_weight="0.1"
+        />
+
+    <EditText
+        android:id="@+id/name_signup_patient"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/newblue"
+        android:textColorHint="@color/lightblue"
+
+        android:singleLine="true"
+        android:hint="Name"
+        android:background="@drawable/edit_text"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layout_weight="0.1"
+        />
+
+    <EditText
+        android:id="@+id/phone_signup_patient"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/newblue"
+        android:textColorHint="@color/lightblue"
+
+        android:singleLine="true"
+        android:inputType="phone"
+        android:hint="Phone"
+        android:background="@drawable/edit_text"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layout_weight="0.1"
+        />
+
+    <EditText
+        android:id="@+id/age_signup_patient"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/newblue"
+        android:textColorHint="@color/lightblue"
+
+        android:singleLine="true"
+        android:inputType="number"
+        android:hint="Age"
+        android:background="@drawable/edit_text"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layout_weight="0.2"
+        />
+
+    <Button
+        android:id="@+id/button_signup_patient"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Sign Up"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/newfront"
+
+        android:backgroundTint="@color/newblue"/>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
