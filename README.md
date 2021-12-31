@@ -1,5 +1,7 @@
 # Health Care
 
+**Note:**  Check the picture name Capture, make an admin data table like this in your database and then other table in database can be made by using code.
+***
 ## Summary :
     
 In today's world of digitalization, every daily life task is being digitalized to increase the ease of people to access the services and facilities provided to them through automated and online platforms. In such an environment people prefer to complete all their tasks online without the hassle of physical visits to the platform. But one area of life that still lacks digitalization in our country is health care. We plan to develop an application that will allow the users to view and select the available doctors and physicians in their specified location to book their visit and to maintain the history of their visits. By using our application, the patients will be able to choose their physician or doctor in a specified city according to requirements of location or nearest availability, time or quickest availability, reputation or reviews etc. All this will be available to the patients without the hassle of visiting the hospitals or searching for the available doctors through various platforms. All information about the doctors and the facility of appointment booking will be provided online.
